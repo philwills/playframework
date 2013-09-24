@@ -191,3 +191,7 @@ Another thing that has changed is the location of the Unix script that starts a 
 > Please note that the format of the arguments passed to the `start` script has changed. Please issue a `-h` on the `start` script to see the arguments now accepted.
 
 Please consult the [["Starting your application in production mode"|Production]] documentation for more information on the new `stage` and `dist` tasks.
+
+## Timeouts in Play WS
+
+Specification of timeouts in Play WS is now more specific. Previously, connection timeout, connection idle timeout and request timout were specified with `ws.timeout`. These are now specified individually. See the [["web services documentation"|ScalaWS]] for more detail.
